@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Shop seller deshboard</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+        
+    <div class="formbox">
+        <h3>Add Candy</h3>
+    <form action="">
+        <label for="candyname">Candy Name</label>
+        <input type="text" name="candyname"  id="candyname"  required>
+
+        <label for="description">Description</label>
+        <input type="text" name="description" id="description" required>
+
+        <label for="price">Price</label>
+        <input type="text" name="price" id="price" required>
+
+        <label for="quantity">Quantity</label>
+        <input type="text" name="quantity" id="quantity" required>
+
+        <button type="submit" class="addbtn" id="adddata"> Add Item</button>
+    </form>
+</div>
+    <div  class="tablediv">
+        <table bgcolor="white" >
+            <thead>
+                <tr bgcolor="green" >
+                    
+                    <th class="tableheading" >Candy Name</th>
+                    <th class="tableheading">Description</th>
+                    <th class="tableheading">Price</th>
+                    <th class="tableheading">Quantity</th>
+                    <th class="tableheading">Sell</th>
+                </tr>
+            </thead>
+             <tbody id="tablebody" >
+    
+                
+             </tbody>
+            
+        </table>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="shop.js"></script>
+</body>
+</html>

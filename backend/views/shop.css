@@ -1,0 +1,54 @@
+
+
+body{
+ 
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease;
+  background-image: url(https://img.freepik.com/free-photo/top-view-copy-space-multi-colored-marmalades-with-marmalades-shape-raspberries-blackberries-blue-background_141793-11701.jpg?size=626&ext=jpg&ga=GA1.2.1212319753.1688910575&semt=ais);
+}
+body:hover{
+  background-image: url(https://img.freepik.com/free-vector/colorful-candy-land-background_23-2147805084.jpg?size=626&ext=jpg);
+}
+.formbox h3{
+  text-align: center;
+}
+.formbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablediv{
+  
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 250px;
+  height: 150px;
+ 
+ 
+}
+table thead tr .tableheading{
+  
+  padding: 8px 30px ;
+  color: black;
+  margin-top: 5px;
+  
+  font-size: 17px;
+}
+table tbody tr td{
+  text-align: center;
+  color:rgb(30, 11, 238);
+  font-weight: bold;
+}
+
+#tablebody{
+  background-color: rgb(222, 200, 212);
+}
+
+#tablebody tr td {
+   padding: 4px 5px;
+   font-size: 17px;
+ 
+}
